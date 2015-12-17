@@ -8,6 +8,9 @@ height: 100%;
 margin-top: 0 !important;
 margin-bottom: 0 !important;;
 }
+.noMarginBottom{
+margin-bottom: 0 !important;;
+}
 .loginForm label{
 margin-bottom: 16px;
 border-radius: 5px !important;
@@ -188,4 +191,25 @@ font-size: 22px;
 font-weight: normal;
 width: 120px;
 border-radius: 4px;
+}
+.cameraWrapper{
+ margin-bottom: 16px;
+}
+.cameraWrapper span{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #ccc;
+	position: relative;
+}
+.cameraWrapper .ion-person-add{
+	font-size: 30px;
+	color: #444;
+}
+.cameraWrapper span .ion-camera{
+	position: absolute;
+	right: 0;
+	bottom: -17px;
 }
