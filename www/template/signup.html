@@ -1,5 +1,26 @@
-<ion-view>
-<ion-content>
-SignUp
-</ion-content>
+<ion-view title="Register">
+    <ion-content class="has-header" overflow-scroll="true" padding="true">
+        <div class="list card">
+            <div class="item item-body">
+                <form class="list">
+                    <label name="name" class="item item-input">
+                        <input placeholder="Name" type="text">
+                    </label>
+                    <div style="width: 255px; height: 18px;" class="spacer"></div>
+                    <label style="" name="userid" class="item item-input">
+                        <input placeholder="User Id" type="text">
+                    </label>
+                    <div style="width: 255px; height: 18px;" class="spacer"></div>
+                    <label name="password" class="item item-input">
+                        <input placeholder="password" type="password">
+                    </label>
+                    <div style="width: 255px; height: 18px;" class="spacer"></div>
+                    <ion-checkbox name="male">Male</ion-checkbox>
+                    <ion-checkbox name="female">female</ion-checkbox>
+                    <ion-checkbox>I agree prrivacy policy</ion-checkbox>
+                    <button class="button button-dark button-block  icon-left ion-android-create">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
