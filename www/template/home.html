@@ -1,21 +1,24 @@
 <ion-view style="" title="Login">
-    <ion-content class="has-header" overflow-scroll="true" padding="true">
+<ion-content class="has-header homeClass" overflow-scroll="false" padding="true">
+<div class="row row-center height100Pre">
+    <div class="col">
         <div class="list card">
             <div class="item item-body">
-                <form class="list">
+                <form class="list loginForm">
                     <label name="username" class="item item-input">
                         <input placeholder="Username" type="text">
                     </label>
-                </form>
-                <div style="width: 287px; height: 26px;" class="spacer"></div>
-                <form class="list">
                     <label style="" name="password" class="item item-input">
-                        <input placeholder="password" type="password">
+                        <input placeholder="Password" type="password">
                     </label>
+                    <button class="loginBtn button button-dark button-block  icon-left ion-log-in">Login</button>
                 </form>
-                <div style="width: 255px; height: 24px;" class="spacer"></div>
-                <button class="button button-dark button-block  icon-left ion-log-in">Login</button>
             </div>
         </div>
-    </ion-content>
+        <div class="list">
+            <div class="forgotPass"><a href="javascript:void(0);">Forgot Password ?</a></div>
+        </div>
+    </div>
+</div>
+</ion-content>
 </ion-view>
