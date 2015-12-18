@@ -117,10 +117,20 @@ border-radius: 4px;
 background: #EEDA76;
 }
 .square .x::after{
-transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 .square .x::before{
-transform: rotate(-45deg);
+
+-webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
 }
 .square .o{
 position: absolute;
@@ -160,10 +170,20 @@ border-radius: 4px;
 background: #EEDA76;
 }
 .cross::after{
-transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 .cross::before{
-transform: rotate(-45deg);
+
+-webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
 }
 .circle{
 float: left;
@@ -267,9 +287,18 @@ margin-top: 7px;
 	background: red;
 }
 .idCross:after{
-	        transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 .idCross:before{
+	-webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
 	        transform: rotate(-45deg);
 }
 .tick:after, .tick:before{
@@ -283,13 +312,23 @@ margin-top: 7px;
 		  height: 23px;
 		  right: 15px;
 		  top: 10px;
-	        transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 .tick:before{
 		  height: 12px;
     right: 26px;
     top: 20px;
-	        transform: rotate(-45deg);
+
+-webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
 }
 .loginForm label input.paddingUserId{
 	padding-right:40px !important;
