@@ -60,11 +60,11 @@ float: left;
 border: 0px none !important;
 }
 .policyWrapper label{
-padding-left: 44px;
+padding-left: 35px;
 border: 0px none !important;
 }
 .policyWrapper .item-checkbox .checkbox{
-	left: -1px;
+	left: -7px;
 }
 .policyWrapper label .item-checkbox .checkbox{
 left: -5px;
@@ -215,6 +215,7 @@ border: 0;
 }
 .buttonWrapper .button.playAgain{
 	width: 160px;
+	margin-right: 0;
 }
 .cameraWrapper{
  margin-bottom: 16px;
