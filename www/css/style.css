@@ -22,6 +22,10 @@ margin-bottom: 16px;
 border-radius: 5px !important;
 border: 1px solid #ccc !important;
 }
+label.errorMsg{
+  border-color: red !important;
+  transition: all 0.5s ease-in-out;
+}
 .loginForm label input{
 font-size: 17px;
 line-height: 20px;
