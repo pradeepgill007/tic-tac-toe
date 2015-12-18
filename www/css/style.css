@@ -213,3 +213,31 @@ border-radius: 4px;
 	right: 0;
 	bottom: -17px;
 }
+.dsahbordDiv label{
+	float: left;
+	width: 100%;
+	display: block;
+}
+.dsahbordDiv label .input-label{
+	float: left;
+	display: block;
+	width: 48%;
+	color: #444;
+	font-size: 18px;
+	font-weight: normal;
+	white-space: normal;
+	line-height: 20px;
+}
+.dsahbordDiv label input{
+	float: left;
+	display: block;
+	width: 50%;
+	color: #444;
+	font-size: 18px;
+	margin-top: 1px;
+	padding-right: 0 !important;
+	font-weight: normal;
+}
+.dsahbordDiv label:last-child input{
+margin-top: 7px;
+}
