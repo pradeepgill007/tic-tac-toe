@@ -80,4 +80,12 @@ tic_tac_toe.config(function ($stateProvider, $urlRouterProvider, $ionicConfigPro
                 }
             }
         })
+        .state('menu.players', {
+            url: '/players',
+            views: {
+                'menuContent': {
+                    templateUrl: 'template/players.html'
+                }
+            }
+        })
 });
