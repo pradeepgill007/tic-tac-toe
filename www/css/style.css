@@ -297,3 +297,45 @@ margin-top: 7px;
 .menuWrapper .buttons-left span.left-buttons button.menuDiv::before{
 	font-size: 45px;
 }
+.userList{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.userList:last-child{
+	margin-bottom: 0 !important;
+}
+.userImage{
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin-right: 2.5%;
+}
+.userImage img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.userName{
+	float: left;
+	width: 73%;
+	color: #444;
+	font-size: 16px;
+	margin-top: 7px;
+}
+.userAvlStats{
+	float: right;
+	height: 35px;
+	width: 30px;
+	line-height: 250%;
+}
+.userAvlStats img{
+	width: 50%;
+}
+.availableHeading{
+	font-size: 18px;
+	color: #444;
+	font-weight: bold;
+}
+.offlineDiv .userName{
+	color: #7e7e7e;
+}
