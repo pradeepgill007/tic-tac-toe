@@ -11,6 +11,12 @@ margin-bottom: 0 !important;;
 .noMarginBottom{
 margin-bottom: 0 !important;;
 }
+.noBorder{
+	border: 0px none !important;
+}
+.posRel{
+	position: relative;
+}
 .loginForm label{
 margin-bottom: 16px;
 border-radius: 5px !important;
@@ -41,14 +47,20 @@ display: block;
 float: left;
 width: 100%;
 }
+.genderWrapper .item-radio .item-content{
+padding-right: 0px;
+}
 .genderWrapper label{
 width: 50%;
 float: left;
 border: 0px none !important;
 }
 .policyWrapper label{
-padding-left: 54px;
+padding-left: 44px;
 border: 0px none !important;
+}
+.policyWrapper .item-checkbox .checkbox{
+	left: -1px;
 }
 .policyWrapper label .item-checkbox .checkbox{
 left: -5px;
@@ -101,17 +113,9 @@ border-radius: 4px;
 background: #EEDA76;
 }
 .square .x::after{
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
 transform: rotate(45deg);
 }
 .square .x::before{
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
--ms-transform: rotate(-45deg);
--o-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
 .square .o{
@@ -152,17 +156,9 @@ border-radius: 4px;
 background: #EEDA76;
 }
 .cross::after{
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
 transform: rotate(45deg);
 }
 .cross::before{
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
--ms-transform: rotate(-45deg);
--o-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
 .circle{
@@ -191,6 +187,10 @@ font-size: 22px;
 font-weight: normal;
 width: 120px;
 border-radius: 4px;
+border: 0;
+}
+.buttonWrapper .button.playAgain{
+	width: 160px;
 }
 .cameraWrapper{
  margin-bottom: 16px;
@@ -203,6 +203,10 @@ border-radius: 4px;
 	border-radius: 50%;
 	background: #ccc;
 	position: relative;
+}
+.cameraWrapper span img{
+	width: 100%;
+	height: 100%;
 }
 .cameraWrapper .ion-person-add{
 	font-size: 30px;
@@ -224,7 +228,7 @@ border-radius: 4px;
 	width: 48%;
 	color: #444;
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: bold;
 	white-space: normal;
 	line-height: 20px;
 }
@@ -240,4 +244,52 @@ border-radius: 4px;
 }
 .dsahbordDiv label:last-child input{
 margin-top: 7px;
+}
+.signUpBorder{
+	border-radius: 5px;
+}
+.tabWrapper .tab-nav .tab-item span{
+	font-size: 18px;
+	font-weight: normal;
+}
+.idCross:after, .idCross:before{
+	content: '';
+	position: absolute;
+	right: 15px;
+	top: 13px;
+	height: 19px;
+	width: 4px;
+	border-radius: 2px;
+	background: red;
+}
+.idCross:after{
+	        transform: rotate(45deg);
+}
+.idCross:before{
+	        transform: rotate(-45deg);
+}
+.tick:after, .tick:before{
+	content: '';
+	position: absolute;
+	width: 4px;
+	border-radius: 2px;
+	background: rgba(0,255,0,1);
+}
+.tick:after{
+		  height: 23px;
+		  right: 15px;
+		  top: 10px;
+	        transform: rotate(45deg);
+}
+.tick:before{
+		  height: 12px;
+    right: 26px;
+    top: 20px;
+	        transform: rotate(-45deg);
+}
+.loginForm label input.paddingUserId{
+	padding-right:40px !important;
+}
+.menuWrapper .buttons-left span.left-buttons button.menuDiv::before{
+	font-size: 45px;
 }
