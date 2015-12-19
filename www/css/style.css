@@ -59,6 +59,9 @@ width: 50%;
 float: left;
 border: 0px none !important;
 }
+.genderWrapper .radio-content .radio-icon{
+	padding-top: 11px;
+}
 .policyWrapper label{
 padding-left: 35px;
 border: 0px none !important;
@@ -304,7 +307,7 @@ content: '';
 position: absolute;
 width: 4px;
 border-radius: 2px;
-background: rgba(0,255,0,1);
+background: rgba(116,177,1,1);
 }
 .tick:after{
 height: 23px;
@@ -333,8 +336,8 @@ padding-right:40px !important;
 font-size: 45px;
 }
 .userList{
-padding-bottom: 5px;
-padding-top: 5px;
+padding-bottom: 7px;
+padding-top: 7px;
 }
 .userList:last-child{
 margin-bottom: 0 !important;
@@ -379,4 +382,15 @@ margin-bottom: 40px !important;
 }
 .card .dsahbordDiv .item:last-child{
 padding-bottom: 1px;
+}
+.tabWrapper .tabs{
+	border:0px none;
+	padding-top: 0px;
+}
+.tabWrapper .tabs a{
+	border-top:2px solid transparent !important;
+}
+.tabWrapper .tabs a.tab-item-active{
+	margin-top: 0 !important;
+	border-top:2px solid #fff !important;
 }
